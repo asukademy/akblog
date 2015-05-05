@@ -99,7 +99,7 @@ class elFinderConnector {
 		}
 		
 		$args['debug'] = isset($src['debug']) ? !!$src['debug'] : false;
-		
+
 		$this->output($this->elFinder->exec($cmd, $this->input_filter($args)));
 	}
 	
@@ -122,7 +122,7 @@ class elFinderConnector {
 				header($header);
 			}
 		}
-		
+
 		if (isset($data['pointer'])) {
 			rewind($data['pointer']);
 			fpassthru($data['pointer']);
