@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <layout name="default">
+        <navigation>
+            <option value="thumbs">Thumbs</option>
+            <option value="numbers">Numbers</option>
+            <option value="dots">Dots</option>
+            <option value="hide">Hide</option>
+        </navigation>
+        <screenshot>http://bowthemes.com/images/screenshots/btslideshow_pro/default.jpg</screenshot>
+    </layout>
+    <layout name="responsive">
+        <navigation>
+            <option value="thumbs">Thumbs</option>
+            <option value="numbers">Numbers</option>
+            <option value="dots">Dots</option>
+            <option value="hide">Hide</option>
+        </navigation>
+        <screenshot>http://bowthemes.com/images/screenshots/btslideshow_pro/default.jpg</screenshot>
+    </layout>
+    <layout name="style1">
+        <navigation>
+            <option value="thumbs">Thumbs</option>
+            <option value="numbers">Numbers</option>
+            <option value="dots">Dots</option>
+            <option value="hide">Hide</option>
+        </navigation>
+        <screenshot>http://bowthemes.com/images/screenshots/btslideshow_pro/style1.jpg</screenshot>
+    </layout>
+    <layout name="style2">
+        <navigation>
+            <option value="dots">Dots</option>
+            <option value="numbers">Numbers</option>
+            <option value="hide">Hide</option>
+        </navigation>
+        <screenshot>http://bowthemes.com/images/screenshots/btslideshow_pro/style2.jpg</screenshot>
+    </layout>
+    <layout name="style3">
+        <navigation>
+            <option value="thumbs">Thumbs</option>
+            <option value="hide">Hide</option>
+        </navigation>
+        <screenshot>http://bowthemes.com/images/screenshots/btslideshow_pro/style3.jpg</screenshot>
+    </layout>
+    <layout name="style4">
+        <navigation>
+            <option value="thumbs">Thumbs</option>
+            <option value="numbers">Numbers</option>
+            <option value="dots">Dots</option>
+            <option value="hide">Hide</option>
+        </navigation>
+        <screenshot>http://bowthemes.com/images/screenshots/btslideshow_pro/style4.jpg</screenshot>
+    </layout>
+    <layout name="style5">
+        <navigation>
+            <option value="thumbs">Thumbs</option>
+            <option value="numbers">Numbers</option>
+            <option value="dots">Dots</option>
+            <option value="hide">Hide</option>
+        </navigation>
+        <screenshot>http://bowthemes.com/images/screenshots/btslideshow_pro/style5.jpg</screenshot>
+    </layout>
+</config>

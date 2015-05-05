@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component"
+	version="3.3"
+	method="upgrade">
+	<name>com_remoteimage</name>
+	<creationDate>2014-1-11</creationDate>
+	<copyright>Copyright (C) 2014. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<author>Asika</author>
+	<authorEmail>asika32764@gmail.com</authorEmail>
+	<authorUrl>http://asikart.com</authorUrl>
+	<version>2.0.5</version>
+	<description>COM_REMOTEIMAGE_XML_DESCRIPTION</description>
+
+	<scriptfile>install.php</scriptfile>
+
+	<files folder="../site">
+		<folder>asset</folder>
+		<folder>images</folder>
+		<folder>view</folder>
+		<file>component.php</file>
+		<file>index.html</file>
+		<file>remoteimage.php</file>
+		<file>router.php</file>
+		<file>routing.json</file>
+	</files>
+
+	<administration>
+		<menu>COM_REMOTEIMAGE</menu>
+
+		<files folder="admin">
+			<folder>asset</folder>
+			<folder>etc</folder>
+			<folder>helper</folder>
+			<folder>images</folder>
+			<folder>language</folder>
+			<folder>src</folder>
+			<folder>view</folder>
+			<file>access.xml</file>
+			<file>component.php</file>
+			<file>composer.json</file>
+			<file>config.xml</file>
+			<file>index.html</file>
+			<file>install.php</file>
+			<file>remoteimage.php</file>
+		</files>
+	</administration>
+
+	<modules>
+		<!--<module>mod_remoteimage</module>-->
+	</modules>
+
+	<plugins>
+		<plugin>plg_editors-xtd_remoteimage</plugin>
+		<plugin>plg_system_remoteimage</plugin>
+	</plugins>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Asikart Remoteimage Component">https://raw.githubusercontent.com/asikart/remoteimage/staging/update.xml</server>
+	</updateservers>
+
+</extension>
+

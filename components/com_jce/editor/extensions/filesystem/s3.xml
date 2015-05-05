@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<install version="2.0" type="extension" extension="s3" folder="filesystem" method="upgrade">
+	<name>WF_FILESYSTEM_S3_TITLE</name>
+	<version>1.0.3</version>
+	<creationDate>13 June 2014</creationDate>
+	<author>Ryan Demmer</author>
+	<authorEmail>info@joomlacontenteditor.net</authorEmail>
+	<authorUrl>http://www.joomlacontenteditor.net/</authorUrl>
+	<copyright>Copyright (C) 2006 - 2013 Ryan Demmer. All rights reserved</copyright>
+	<license>GNU/GPL Version 2 - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>WF_FILESYSTEM_S3_DESC</description>
+	<files>
+		<file>s3.php</file>
+		<folder>s3</folder>
+	</files>
+	<params group="s3" parent="filesystem">
+		<param name="accesskey" type="text" default="" size="50" label="WF_FILESYSTEM_S3_ACCESSKEY" description="WF_FILESYSTEM_S3_ACCESSKEY_DESC" />
+		<param name="secretkey" type="password" default="" size="50" label="WF_FILESYSTEM_S3_SECRETKEY" description="WF_FILESYSTEM_S3_SECRETKEY_DESC" />
+		<param name="bucket" type="text" default="" size="50" label="WF_FILESYSTEM_S3_BUCKET" description="WF_FILESYSTEM_S3_BUCKET_DESC" />
+		<param name="cname" type="text" default="" size="50" label="WF_FILESYSTEM_S3_CNAME" description="WF_FILESYSTEM_S3_CNAME_DESC" />
+		<param name="timeout" type="text" default="3600" label="WF_FILESYSTEM_S3_TIMEOUT" description="WF_FILESYSTEM_S3_TIMEOUT_DESC" />
+                <param name="ssl" type="radio" default="1" label="WF_FILESYSTEM_S3_SSL" description="WF_FILESYSTEM_S3_SSL_DESC">
+                    <option value="1">WF_OPTION_YES</option>
+                    <option value="0">WF_OPTION_NO</option>
+                </param>
+                <param name="endpoint" type="list" size="50" default="" label="WF_FILESYSTEM_S3_ENDPOINT" description="WF_FILESYSTEM_S3_ENDPOINT_DESC">
+                    <option value="">WF_OPTION_NOT_SET</option>
+                    <option value="s3.amazonaws.com">US Standard</option>
+                    <option value="s3-us-west-2.amazonaws.com">US West (Oregon) Region</option>
+                    <option value="s3-us-west-1.amazonaws.com">US West (Northern California) Region</option>
+                    <option value="s3-eu-west-1.amazonaws.com">EU (Ireland) Region</option>
+                    <option value="s3-ap-southeast-1.amazonaws.com">Asia Pacific (Singapore) Region</option>
+                    <option value="s3-ap-southeast-2.amazonaws.com">Asia Pacific (Sydney) Region</option>
+                    <option value="s3-ap-northeast-1.amazonaws.com">Asia Pacific (Tokyo) Region</option>
+                    <option value="s3-sa-east-1.amazonaws.com">South America (Sao Paulo) Region</option>
+                </param>
+                <param name="acl" type="list" default="private" label="WF_FILESYSTEM_S3_ACL" description="WF_FILESYSTEM_S3_ACL_DESC">
+                    <option value="private">WF_FILESYSTEM_S3_ACL_PRIVATE</option>
+                    <option value="public-read">WF_FILESYSTEM_S3_ACL_PUBLIC_READ</option>
+                    <option value="public-read-write">WF_FILESYSTEM_S3_ACL_PUBLIC_READ_WRITE</option>
+                    <option value="authenticated-read">WF_FILESYSTEM_S3_ACL_AUTHENTICATED_READ</option>
+                </param>
+	</params>
+	<languages>
+		<language tag="en-GB">en-GB.com_jce_filesystem_s3.ini</language>
+	</languages>
+</install>

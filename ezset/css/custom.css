@@ -1,0 +1,220 @@
+/* ASIKART EasySet Custom CSS */
+
+
+/* GLOBAL */
+
+
+/* BODY */
+.ak_blog_intro::after{
+	content:"..."
+}
+
+/* TYPO */
+
+
+/* LAYOUT */
+
+/* HEADER */
+.page-header{
+padding-bottom: 0px;
+margin: 20px 0 0px;
+border-bottom:none;
+}
+
+.row-fluid{
+margin:0px;
+}
+
+/* BANNER */
+
+
+/* MENU */
+
+
+/* MAIN CONTENT */
+
+
+/* LEFT COLUMN */
+
+
+/* RIGHT COLUMN */
+
+
+/* ARTICLE */
+.readmore {
+  margin: -50px 0px 0px 0px;
+  float: right;
+}
+
+.readmore a {
+  color:#fff;
+  padding:5px;
+  background:#3d3d3d;
+}
+
+.readmore > .btn:hover{
+  color: #fff;
+  text-decoration: none;
+  background-color: #666;
+  background-position: 0 -15px;
+  -webkit-transition: background-position .1s linear;
+  -moz-transition: background-position .1s linear;
+  -o-transition: background-position .1s linear;
+  transition: background-position .1s linear;
+}
+
+.page-header > h2 > a{
+  color:#333;
+}
+
+.page-header > h2 > a:hover{
+  color:#666;
+}
+
+
+.label-info[href] {
+  margin-bottom: 6px;
+  margin-right: 6px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 3px 10px;
+  color: #fff !important;
+  text-decoration: none;
+  border: 1px solid #f7c221;
+  background: #f7c221;
+  box-shadow: none !important;
+}
+
+.pager li > a {
+display: inline-block;
+  padding: 5px 14px;
+  background-color: #ECECEC;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.pager li>a:hover{
+  background-color: #888;
+}
+
+.pager .next > a,
+.pager .previous>a {
+  background:#595959;
+  color:#FFF;
+}
+
+/* TABLE */
+td > p {
+  margin:0 0;
+}
+
+td > a {
+  color:#3d3d3d!important;
+}
+
+/* FOOTER */
+
+/* Module */
+.module.highlighted{
+background: #3d3d3d;
+}
+
+.user4 h3 span{
+background: #3d3d3d;
+}
+
+.tagspopular ul > li > a {
+  float: left;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 3px 10px;
+  color: #fff !important;
+  text-decoration: none;
+  border: 1px solid #3d3d3d;
+  background: #3d3d3d;
+  box-shadow: none !important;
+}
+
+.tagspopular ul {
+	padding: 0;
+	margin: 0 0 0px 0px;
+	}
+.tagspopular ul > li{
+list-style-type:none;
+}
+
+li {
+  line-height: 1.8em;
+}
+
+ul{
+	padding: 0;
+	margin: 0px 0px 0px 25px;
+}
+
+.pull-right.right{
+  float: left;
+  margin: 33px 0px -30px 0px;
+}
+
+button.button.btn.btn-primary{
+color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #424242;
+  background-image: -moz-linear-gradient(top,#424242,#424242);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#424242),to(#424242));
+  background-image: -webkit-linear-gradient(top,#424242,#424242);
+  background-image: -o-linear-gradient(top,#424242,#424242);
+  background-image: linear-gradient(to bottom,#424242,#424242);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2195f0', endColorstr='#ff2151f0', GradientType=0);
+  border-color: #424242 #424242 #424242;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+#mod_btslideshow_pro_146 .label_skitter div, #mod_btslideshow_pro_146 .label_skitter div a{
+font-family:'Oswald', 'Adobe 繁黑體 Std', 'AdobeFanHeitiStd-Bold', 'LiHei Pro', "Xin6", '微軟正黑體', sans-serif;
+}
+/*Contact*/
+
+.b2jcontainer h2{
+background:#3d3d3d;
+}
+
+#b2jcontainer_c186.b2jcontainer{
+color:#333!important;
+}
+
+/* Color override for Asukademy */
+.items-row h2 > a {
+  color: #333;
+}
+
+.items-row h2 > a {
+  color: #333;
+}
+.items-row h2 > a:hover {
+  color: #666;
+}
+
+.right h3 {
+  border-bottom-color: #666;
+}
+
+#sp-main-menu ul.level-0 > li.active a {
+  color: #333!important;
+  background: #eee!important;
+}
+#sp-main-menu ul.level-0 > li >a:hover {
+  color: #333!important;
+  background: #eee!important;
+}

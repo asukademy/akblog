@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_REMOTEIMAGE_MANAGER"
+		option="COM_REMOTEIMAGE_MANAGER">
+		<help
+			key="COM_REMOTEIMAGE_MANAGER"
+			/>
+		<message>
+			<![CDATA[COM_REMOTEIMAGE_MANAGER_DESC]]>
+		</message>
+	</layout>
+</metadata>

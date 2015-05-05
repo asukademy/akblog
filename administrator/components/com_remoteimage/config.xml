@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="component"
+		label="COM_REMOTEIMAGE_COMPONENT_LABEL"
+
+		addfieldpath="administrator/components/com_remoteimage/models/fields"
+		>
+
+		<field
+			name="Connection_Local"
+			type="radio"
+			label="COM_REMOTEIMAGE_CONNECTION_LOCAL"
+			description="COM_REMOTEIMAGE_CONNECTION_LOCAL_DESC"
+			default="1"
+			class="btn-group"
+			>
+			<option value="0">JDISABLED</option>
+			<option value="1">JENABLED</option>
+		</field>
+
+		<field
+			name="Connection_Ftp"
+			type="radio"
+			label="COM_REMOTEIMAGE_CONNECTION_FTP"
+			description="COM_REMOTEIMAGE_CONNECTION_FTP_DESC"
+			default="1"
+			class="btn-group"
+			>
+			<option value="0">JDISABLED</option>
+			<option value="1">JENABLED</option>
+		</field>
+
+		<field type="spacer" hr="true" />
+
+		<field
+			name="Local_Root"
+			type="text"
+			label="COM_REMOTEIMAGE_LOCAL_ROOT"
+			description="COM_REMOTEIMAGE_LOCAL_ROOT_DESC"
+			class=""
+			default="images"
+			/>
+
+		<field type="spacer" hr="true" />
+
+		<field
+			name="Ftp_Host"
+			type="text"
+			label="COM_REMOTEIMAGE_FTP_HOST"
+			description="COM_REMOTEIMAGE_FTP_HOST_DESC"
+			default="127.0.0.1"
+			/>
+
+		<field
+			name="Ftp_User"
+			type="text"
+			label="COM_REMOTEIMAGE_FTP_USER"
+			description="COM_REMOTEIMAGE_FTP_USER_DESC"
+			default=""
+			/>
+
+		<field
+			name="Ftp_Password"
+			type="password"
+			label="COM_REMOTEIMAGE_FTP_PASSWORD"
+			description="COM_REMOTEIMAGE_FTP_PASSWORD_DESC"
+			default=""
+			/>
+
+		<field
+			name="Ftp_Port"
+			type="text"
+			label="COM_REMOTEIMAGE_FTP_PORT"
+			description="COM_REMOTEIMAGE_FTP_PORT_DESC"
+			default="21"
+			/>
+
+		<field
+			name="Ftp_Active"
+			type="radio"
+			label="COM_REMOTEIMAGE_FTP_ACTIVE_MODE"
+			description="COM_REMOTEIMAGE_FTP_ACTIVE_MODE_DESC"
+			default="passive"
+			class="btn-group"
+			>
+			<option value="passive">JDISABLED</option>
+			<option value="active">JENABLED</option>
+		</field>
+
+		<field
+			name="Ftp_Root"
+			type="text"
+			label="COM_REMOTEIMAGE_FTP_ROOT"
+			description="COM_REMOTEIMAGE_FTP_ROOT_DESC"
+			default=""
+			class="input-xlarge"
+			size="50"
+			/>
+
+		<field
+			name="Ftp_Url"
+			type="text"
+			label="COM_REMOTEIMAGE_FTP_URL"
+			description="COM_REMOTEIMAGE_FTP_URL_DESC"
+			default=""
+			class="input-xlarge"
+			size="50"
+			/>
+
+		<field type="spacer" hr="true" />
+
+		<field
+			name="Onlyimage"
+			type="radio"
+			label="COM_REMOTEIMAGE_ONLYIMAGE"
+			description="COM_REMOTEIMAGE_ONLYIMAGE_DESC"
+			default="0"
+			class="btn-group"
+			>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="Safemode"
+			type="radio"
+			label="COM_REMOTEIMAGE_SAFEMODE"
+			description="COM_REMOTEIMAGE_SAFEMODE_DESC"
+			default="1"
+			class="btn-group"
+			>
+			<option value="0">JDISABLED</option>
+			<option value="1">JENABLED</option>
+		</field>
+
+		<field type="spacer" hr="true" />
+
+		<field
+			name="Image_Resize_Enabled"
+			type="radio"
+			label="COM_REMOTEIMAGE_IMAGE_RESIZE_ENABLED"
+			description="COM_REMOTEIMAGE_IMAGE_RESIZE_ENABLED_DESC"
+			default="1"
+			class="btn-group"
+			>
+			<option value="0">JDISABLED</option>
+			<option value="1">JENABLED</option>
+		</field>
+
+		<field
+			name="Image_Max_Width"
+			type="text"
+			label="COM_REMOTEIMAGE_IMAGE_MAX_WIDTH"
+			description="COM_REMOTEIMAGE_IMAGE_MAX_WIDTH_DESC"
+			default="1024"
+			/>
+
+		<field
+			name="Image_Max_Height"
+			type="text"
+			label="COM_REMOTEIMAGE_IMAGE_MAX_HEIGHT"
+			description="COM_REMOTEIMAGE_IMAGE_MAX_HEIGHT_DESC"
+			default="1024"
+			/>
+
+		<field
+			name="Image_JPEG_Quality"
+			type="text"
+			label="COM_REMOTEIMAGE_IMAGE_JPEG_QUALITY"
+			description="COM_REMOTEIMAGE_IMAGE_JPEG_QUALITY_DESC"
+			default="95"
+			/>
+	</fieldset>
+
+	<fieldset name="integrate">
+
+		<field
+			name="Integrate_InsertTemplateImage"
+			type="textarea"
+			label="COM_REMOTEIMAGE_INTEGRATE_INSERT_TEMPLATE_IMAGE"
+			description="COM_REMOTEIMAGE_INTEGRATE_INSERT_TEMPLATE_IMAGE_DESC"
+			default="&lt;p&gt;{%CONTENT%}&lt;/p&gt;"
+			class="input-lxlarge"
+			rows="3"
+			cols="30"
+			filter="safehtml"
+			/>
+
+		<field
+			name="Integrate_InsertTemplateLink"
+			type="textarea"
+			label="COM_REMOTEIMAGE_INTEGRATE_INSERT_TEMPLATE_LINK"
+			description="COM_REMOTEIMAGE_INTEGRATE_INSERT_TEMPLATE_LINK_DESC"
+			default="{%CONTENT%}"
+			class="input-lxlarge"
+			rows="3"
+			cols="30"
+			filter="safehtml"
+			/>
+
+		<field
+			name="Image_DefaultWidth_Midium"
+			type="text"
+			label="COM_REMOTEIMAGE_DEFAULT_WIDTH_MIDIUM"
+			description="COM_REMOTEIMAGE_DEFAULT_WIDTH_MIDIUM_DESC"
+			default="640"
+			class="input-small"
+			size="10"
+			filter="int"
+			/>
+
+		<field
+			name="Image_DefaultHeight_Midium"
+			type="text"
+			label="COM_REMOTEIMAGE_DEFAULT_HEIGHT_MIDIUM"
+			description="COM_REMOTEIMAGE_DEFAULT_HEIGHT_MIDIUM_DESC"
+			default="640"
+			class="input-small"
+			size="10"
+			filter="int"
+			/>
+
+		<field type="spacer" hr="true" />
+
+		<field
+			name="Integrate_Override_MediaManager"
+			type="radio"
+			label="COM_REMOTEIMAGE_INTEGRATE_OVERRIDE_MEDIA_MANAGER"
+			description="COM_REMOTEIMAGE_INTEGRATE_OVERRIDE_MEDIA_MANAGER_DESC"
+			default="1"
+			class="btn-group"
+			>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="Integrate_Override_MediaFormField"
+			type="radio"
+			label="COM_REMOTEIMAGE_INTEGRATE_OVERRIDE_MEDIA_FORMFIELD"
+			description="COM_REMOTEIMAGE_INTEGRATE_OVERRIDE_MEDIA_FORMFIELD_DESC"
+			default="1"
+			class="btn-group"
+			>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+
+		<field
+			name="Integrate_Override_InsertImageArticle"
+			type="radio"
+			label="COM_REMOTEIMAGE_INTEGRATE_OVERRIDE_INSERT_IMAGE_ARTICLE"
+			description="COM_REMOTEIMAGE_INTEGRATE_OVERRIDE_INSERT_IMAGE_ARTICLE_DESC"
+			default="1"
+			class="btn-group"
+			>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+	</fieldset>
+
+	<fieldset name="permissions"
+		description="JCONFIG_PERMISSIONS_DESC"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		>
+
+		<field name="rules" type="rules"
+			component="com_remoteimage"
+			filter="rules"
+			validate="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			section="component" />
+	</fieldset>
+
+</config>

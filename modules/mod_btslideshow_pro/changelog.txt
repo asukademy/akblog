@@ -1,0 +1,86 @@
+Changelog of BT Slideshow Pro
+This is a maintenance release. The following items were fixed and/or added:
+
+------------------------ version 1.1 --------------------------------------
+-- 02/20/2012 - Bowthemes 	- Add feature upload images from local computer by flash uploader
+				- Add feature import images from Flickr, Picasa, Joom Gallery and Phoca Gallery.
+				- Add feature feed title from these sources
+				- Add feature remove all images with one click.
+				- Add feature display warning for the unwritalbe folder and user lost session.
+-- 02/25/2012 - Bowthemes 	- Add feature import title, link, description from Joomla Article
+				- Add feature raise message if flickr api, flickr username and picasa username are not valid forgetting photosets or albums.
+-- 03/01/2012 - Bowthemes 	- Add feature import title, link, description from K2 article
+				- Fix bug: raise warning if folder "images" of the modules isn't writable and file "ajax.php" isn't at 0755 mode.
+-- 04/05/2012 - Bowthemes	- Add fearture select font, size and color of slide's title, description
+				- Add progressbar to layout addition is choose background color for it.
+				- Add fearture select layout for the module. Six layouts are included.
+------------------------ version 1.1.2 --------------------------------------
+-- 05/03/2012 - Bowthemes  - Fix bug turn off progress bar.					
+------------------------ version 1.1.3 --------------------------------------
+-- 05/03/2012 - Bowthemes  - Add param effect velocity to set effect speed.
+------------------------ version 1.1.4 --------------------------------------
+-- 06/1/2012 - Bowthemes  - Fix bug: Error when deleting specific image without saving.
+------------------------ version 1.2 --------------------------------------
+-- 08/16/2012 - Bowthemes - Fix bug: Click image not open link with target like title link
+-- 08/16/2012 - Bowthemes - Fix bug: Change structure of the module to fix ajax error, impossible to create folders
+-- 08/17/2012 - Bowthemes - Remove Feed title option
+-- 08/30/2012 - Bowthemes - Add Responsive layout bases on Default layout.
+-- 08/30/2012 - Bowthemes - Fix bug: Load Jquery and Jquery Conflict.
+------------------------ version 1.2.1 --------------------------------------
+-- 09/15/2012 - Bowthemes - Fix bug: Delete all images with many modules
+-- 09/15/2012 - Bowthemes - Fix bug: Javascript syntax error in 3 layouts: style 3, style 4 and style 5
+-- 10/03/2012 - Bowthemes - Fix bug: Right border with style 3
+-- 10/03/2012 - Bowthemes - Fix bug: Error with jquery v1.8.2 library
+------------------------ version 1.2.2 --------------------------------------
+-- 10/09/2012 - Bowthemes - Update: jquery v1.8.2 latest version, update jquery-color-animation
+-- 10/11/2012 - Bowthemes - Add "autoplay" parameter
+------------------------ version 1.2.3 --------------------------------------
+-- 10/11/2012 - Bowthemes - Change and fix bug of "Load Jquery" parameter
+-- 10/16/2012 - Bowthemes - Problem with target/popup links
+-- 10/16/2012 - Bowthemes - Double next in IE
+------------------------ version 1.2.4 --------------------------------------
+-- 10/17/2012 - Bowthemes - Fix bug: Black images when click "Save and Close" instead of "Save"
+------------------------ version 1.2.5 --------------------------------------
+-- 11/02/2012 - Bowthemes - Fixed: 504 Gateway Timeout in some hostings
+------------------------ version 2.0.0 --------------------------------------
+-- 11/09/2012 - Bowthemes - Fixed: extensions tag to lowercase
+-- 11/26/2012 - Bowthemes - Added 'Module Class Suffix' parameter
+-- 11/29/2012 - Bowthemes - Supported: Joomla 3.0
+-- 12/11/2012 - Bowthemes - Added: Responsive for all layouts
+-- 12/11/2012 - Bowthemes - Added: Auto scrolling thumbs navigation
+-- 12/11/2012 - Bowthemes - Added: Turn on/off crop images function
+------------------------ version 2.1.0 --------------------------------------
+-- 01/04/2013 - Bowthemes - Fixed: extra space with auto scrolling
+-- 01/05/2013 - Bowthemes - Added: Support touch screen
+-- 01/11/2013 - Bowthemes - Added: competitive with AMM component
+------------------------ version 2.1.1 --------------------------------------
+-- 01/19/2013 - Bowthemes - Fixed: Stretching images with responsive option
+-- 01/19/2013 - Bowthemes - Fixed: Strict standards error
+------------------------ version 2.1.2 --------------------------------------
+-- 01/24/2013 - Bowthemes - Fixed: JS Error with style 5 and touchsreen on
+-- 01/24/2013 - Bowthemes - Fixed: Changing EOL to linux/unix format
+------------------------ version 2.1.3 --------------------------------------
+-- 01/25/2013 - Bowthemes - Fixed: Centering Navigation Type on responsive
+-- 01/25/2013 - Bowthemes - Fixed: Removing box_clone on responsive
+-- 02/04/2013 - Bowthemes - Fixed: JS Error on IE 8
+------------------------ version 2.1.4 --------------------------------------
+-- 02/04/2013 - Bowthemes - Fixed: Some javascript files what contain string "jquery" in name, are removed by plugins
+-- 02/16/2012 - Bowthemes - Fixed: IE 7,8 error on hovered thumbs
+-- 02/16/2012 - Bowthemes - Fixed: responsive width limit
+------------------------ version 2.1.5 --------------------------------------
+-- 03/20/2013 - Bowthemes - Fixed: When save as copy a module, 2 modules will use same images. 
+							When user delete images from a module, other one will be error , it's can't not show images.
+-- 03/20/2013 - Bowthemes - Fixed: jumping thumbnail in style 5
+
+------------------------ version 2.1.6 --------------------------------------
+ - 2013/04/01 - Bowthemes - Fix Bug: Error about Phoca gallery Category on Joomla 3.0
+			  - Change: Use cURL instead of file_get_contents
+			  - Fix Bug: Add 3 missing circle effect options
+			  - Removed touch screen option, using auto-detection instead of it
+			  - Fix Bug: Can't config description style on layout Style 4
+			  - Fix Bug: If there is a link (anchor tag) in image's description. It's text will be concatenated to thumbnail title.
+------------------------ version 2.1.7 --------------------------------------
+ - 2013/12/05 - Bowthemes - Upgraded:  Compatible Joomla 3.2
+------------------------ version 2.1.8 --------------------------------------
+-- 2014/01/18 - Bowthemes - Fixed bug: Fix file animate-colors.min.js to suit jQuery 1.10.x
+-- 2014/02/20  		  - Fixed bug: Can not use Joomla Folder source since version 2.1.6

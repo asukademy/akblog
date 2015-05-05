@@ -1,0 +1,24 @@
+{
+    "name": "asikart/ace-markdown-editor",
+    "description": "Ace Markdown editor",
+    "require": {
+        "michelf/php-markdown": "1.*@stable",
+        "tpyo/amazon-s3-php-class": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Simon Asika",
+            "email": "asika32764@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+	"config" : {
+		"vendor-dir" : "lib"
+	}
+}
